@@ -36,6 +36,12 @@ odoo.define('web_one2many_selectable_10.form_widgets', function (require) {
 			var model_obj=new Model(this.dataset.model); 
 			//you can hardcode model name as: new Model("module.model_name");
 			//you can change the function name below
+			/*
+			      @api.multi
+				def bulk_verify(self):
+        				for record in self:
+            				print record
+			*/
 			model_obj.call('bulk_verify',[selected_ids],{context:self.dataset.context})
 			.then(function(result){
 			});
