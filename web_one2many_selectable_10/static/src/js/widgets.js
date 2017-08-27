@@ -36,7 +36,7 @@ odoo.define('web_one2many_selectable_10.form_widgets', function (require) {
 			var model_obj=new Model(this.dataset.model); 
 			//you can hardcode model name as: new Model("module.model_name");
 			//you can change the function name below
-			/*
+			/* you can use the python function to get the IDS
 			      @api.multi
 				def bulk_verify(self):
         				for record in self:
