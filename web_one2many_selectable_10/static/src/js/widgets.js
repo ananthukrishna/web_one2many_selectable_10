@@ -5,6 +5,7 @@ odoo.define('web_one2many_selectable_10.form_widgets', function (require) {
 	var form_common = require('web.form_common');
 	var _t = core._t;
 	var QWeb = core.qweb;
+	var Model = require('web.Model');
 	var FieldOne2Many = core.form_widget_registry.get('one2many');
 
 
