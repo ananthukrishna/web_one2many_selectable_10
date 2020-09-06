@@ -49,6 +49,7 @@ By default the widget will pick model from one2many field and default function n
 You can change the model as well as python function name from javascript.
     ''',
     "category": "Web Enhancements",
+    "images": ["images/web_one2many_selectable_10.png"],
     "depends": [
         'web',
     ],
